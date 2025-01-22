@@ -1,0 +1,199 @@
+/*----------------------------------
+BASE
+-----------------------------------*/
+
+html{
+    box-sizing: border-box;
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+/*----------------------------------
+ELEMENTS
+-----------------------------------*/
+
+.wrapper{
+    max-width: 1080px;
+    margin:0 auto;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", serif;
+
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*----------------------------------
+COMPONENTS
+-----------------------------------*/
+
+/*header*/
+
+header{
+    background-color: #f26c25;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+header .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    margin-right: 10px;
+}
+
+header p{
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+}
+header ul{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+}
+
+nav a{
+    color: white;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+/*section banniere*/
+
+.banniere{
+    background-color: #eeeeee;
+}
+
+.banniere .wrapper{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: 7.2px;
+}
+
+/*section transport*/
+
+.titre-transport{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 60px;
+
+    background-color: #eeeeee;
+
+    border: 1px solid #d0d0d0;
+
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.titre-transport h2{
+    margin-left: 20px;
+}
+
+.titre-transport img{
+    margin-right: 20px;
+}
+
+.conteneur-transport{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+}
+
+h3{
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+}
+
+article p{
+    text-align: center;
+}
+
+/*footer*/
+
+footer .wrapper ul li a{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+
+.Facebook a{
+    background-image: url("../images/facebooknb1.jpg");
+}
+
+.Facebook a:hover{
+    background-image: url("../images/facebooksurvol.jpg");
+}
+
+.Twitter a{
+    background-image: url("../images/twitternb1.jpg");
+}
+
+.Twitter a:hover{
+    background-image: url("../images/twittersurvol1.jpg");
+}
+
+.Linkedin a{
+    background-image: url("../images/linkedinnb1.jpg");
+}
+
+.Linkedin a:hover{
+    background-image: url("../images/linkedinsurvol.jpg");
+}
+
+.Pinterest a{
+    background-image: url("../images/pinterestnb1.jpg");
+}
+
+.Pinterest a:hover{
+    background-image: url("../images/pinterestsurvol.jpg");
+}
+
+footer ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    list-style-type: none;
+}
+
+footer{
+    background-color: black;
+}
+
+footer h4{
+    color: white;
+}
+
+footer .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
